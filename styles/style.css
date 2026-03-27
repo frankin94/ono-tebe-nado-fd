@@ -1,11 +1,11 @@
 body {
   width: 1100px;
+  max-width: 100%;
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  background-color: white;
   overflow-x: hidden;
-  max-width: 100%;
+  background-color: white;
 }
 
 header {
@@ -71,6 +71,7 @@ address {
   display: grid;
   width: auto;
   min-height: 757px;
+  margin-top:4px;
   background-image: url(../images/lotus-flower.png);
 }
 
@@ -220,7 +221,7 @@ address {
 .card__title {
   position: relative;
   z-index: 3;
-  padding: 48px 40px 40px;
+  padding: 46px 42px 40px;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
@@ -259,7 +260,7 @@ address {
 
 .about__column__left {
   place-content: center;
-  margin-top: -27px;
+  margin-top: -30px;
   margin-left: 14px;
 }
 
@@ -273,18 +274,19 @@ address {
 
 .about__title {
   place-content: center;
-  margin: -67px 0 0 16px;
+  margin: -74px 0 0 16px;
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .about__text {
-  margin-top: -46px;
-  padding: 0px 40px 0 15px;
+  margin-top: -47px;
+  padding: 0px 41px 0 15px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
+  letter-spacing: 1%;
 }
 
 .footer {
