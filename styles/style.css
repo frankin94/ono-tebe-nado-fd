@@ -63,7 +63,7 @@ address {
   display: grid;
   width: auto;
   min-height: 757px;
-  background-image: url(/images/lotus-flower.png);
+  background-image: url(../images/lotus-flower.png);
 
 }
 .overlay {
@@ -209,17 +209,17 @@ address {
   color: white;
 }
 .card_type_film{
-  background: url(/images/film.png);
+  background: url(../images/film.png);
   background-position: center;
   background-size: cover;
 }
 .card_type_book{
-  background: url(/images/book.jpg);
+  background: url(../images/book.jpg);
   background-position: center;
   background-size: cover;
 }
 .card_type_picture{
-  background: url(/images/picture.jpg);
+  background: url(../images/picture.jpg);
   background-position: center;
   background-size: cover;
 }
