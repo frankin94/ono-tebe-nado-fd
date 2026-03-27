@@ -94,7 +94,6 @@ address {
 .cover__title {
   position: relative;
   top: 165px;
-  left: 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -109,14 +108,15 @@ address {
 
 .aligned-text_left {
   position: relative;
-  top: -4px;
+  top: -6px;
   place-self: center;
+  left: 50px;
 }
 
 .aligned-text_center {
   position: relative;
-  top: 3px;
-  left: 13px;
+  top: 0px;
+  left: 65px;
   grid-column: 2 / 2;
   grid-row: 2 / 2;
   place-self: center;
@@ -124,8 +124,8 @@ address {
 
 .aligned-text_right {
   position: relative;
-  top: 9px;
-  right: 71px;
+  top: 5px;
+  left: -22px;
   grid-column: 3 / 3;
   grid-row: 3 / 3;
   place-self: center;
@@ -138,7 +138,6 @@ address {
 .cover__description {
   position: relative;
   bottom: 16px;
-  left: 37px;
   display: flex;
   gap: 93px;
   width: 100%;
@@ -152,8 +151,10 @@ address {
   font-weight: 400;
   font-size: 22px;
   line-height: 100%;
-  letter-spacing: 1.99px;
-  word-spacing: 7px;
+  letter-spacing: 14%;
+  left: 38px;
+  position: relative;
+  top: -3px;
 }
 
 .bet-button {
@@ -166,10 +167,12 @@ address {
   font-size: 22px;
   line-height: 100%;
   background: none;
+  left: 38px;
+  top: -7px;
 }
 
 .lots {
-  margin-top: 180px;
+  margin-top: 177px;
 }
 
 .lots__heading {
@@ -221,12 +224,13 @@ address {
 .card__title {
   position: relative;
   z-index: 3;
-  padding: 46px 42px 40px;
+  padding: 49px 41px 40px;
   font-weight: 700;
   font-size: 22px;
   line-height: 120%;
   text-decoration: underline;
   text-transform: uppercase;
+  letter-spacing: 1%;
 }
 
 .card__text {
@@ -281,19 +285,19 @@ address {
 }
 
 .about__text {
-  margin-top: -47px;
-  padding: 0px 41px 0 15px;
+  margin-top: -46px;
+  padding: 1px 40px 0 17px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
-  letter-spacing: 1%;
+  letter-spacing: 0%;
 }
 
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
-  margin: 132px 0;
+  margin: 132px 0 0 0;
   padding: 50px;
 }
 
