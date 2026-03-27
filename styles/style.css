@@ -3,7 +3,6 @@ body {
   height: auto;
   margin-right: auto;
   margin-left: auto;
-  border: 1px black solid;
   background-color: white;
 }
 
@@ -180,7 +179,6 @@ address {
   display: flex;
   flex-wrap: wrap;
   gap: 25px;
-  margin: auto;
   margin: 39px 0 0 24px;
 }
 
