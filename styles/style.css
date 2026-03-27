@@ -4,6 +4,8 @@ body {
   margin-right: auto;
   margin-left: auto;
   background-color: white;
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 header {
